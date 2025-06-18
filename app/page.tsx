@@ -48,24 +48,24 @@ export default function Home() {
 
   const faqData = [
     {
-      question: "What is a contextual quiz?",
+      question: "Apa itu kuiz kontekstual?",
       answer:
-        "A contextual quiz is generated directly from your learning materials - whether it's a PDF, website, or topic. Unlike generic quizzes, contextual quizzes test your understanding of specific content you're studying.",
+        "Kuiz kontekstual dibuat langsung dari materi belajar Anda—baik PDF, situs web, atau topik. Berbeda dengan kuiz umum, kuiz kontekstual menguji pemahaman Anda terhadap konten spesifik yang sedang dipelajari.",
     },
     {
-      question: "How do I earn more credits for free?",
+      question: "Bagaimana cara mendapatkan lebih banyak kredit gratis?",
       answer:
-        "You can earn free credits by inviting friends, completing daily challenges, maintaining a study streak, or participating in community events and competitions on the platform.",
+        "Anda bisa mendapatkan kredit gratis dengan mengundang teman, menyelesaikan tantangan harian, menjaga streak belajar, atau berpartisipasi dalam acara dan kompetisi komunitas di platform.",
     },
     {
-      question: "What is AI feedback?",
+      question: "Apa itu umpan balik AI?",
       answer:
-        "AI feedback is personalized explanation provided after you answer a question. It doesn't just tell you if you're right or wrong - it explains concepts, clarifies misconceptions, and helps you understand the 'why' behind each answer.",
+        "Umpan balik AI adalah penjelasan personal yang diberikan setelah Anda menjawab pertanyaan. Bukan hanya memberi tahu benar atau salah—AI menjelaskan konsep, mengklarifikasi miskonsepsi, dan membantu Anda memahami 'alasan' di balik setiap jawaban.",
     },
     {
-      question: "Can I use this with my school or class?",
+      question: "Bisakah saya menggunakannya dengan sekolah atau kelas saya?",
       answer:
-        "Ngerti.In offers special educational plans for schools and teachers. You can create class-specific quizzes, monitor student progress, and integrate with common learning management systems. Contact us for educational pricing.",
+        "Ngerti.In menawarkan paket edukasi khusus untuk sekolah dan guru. Anda dapat membuat kuiz khusus kelas, memantau kemajuan siswa, dan terintegrasi dengan sistem manajemen pembelajaran umum. Hubungi kami untuk harga edukasi.",
     },
   ]
 
@@ -79,13 +79,13 @@ export default function Home() {
           </div>
           <nav className="hidden md:flex items-center space-x-6">
             <Link href="#features" className="font-bold hover:underline">
-              Features
+              Fitur
             </Link>
             <Link href="#testimonials" className="font-bold hover:underline">
               Testimoni
             </Link>
             <Link href="#pricing" className="font-bold hover:underline">
-              Pricing
+              Harga
             </Link>
             <Link href="#faq" className="font-bold hover:underline">
               FAQ
@@ -114,7 +114,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="inline-block px-4 py-2 bg-yellow-300 border-2 border-black rounded-md font-bold rotate-2">
-                AI-Powered Learning
+                Pembelajaran Bertenaga AI
               </div>
               <h1 className="text-5xl md:text-6xl font-black leading-tight">
                 Ngerti.In — Kuiz Kontekstual Instan yang Membuat Anda{" "}
@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
+      {/* Fitur Section */}
       <section id="features" className="py-16 md:py-24 bg-white border-b-4 border-black">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-black mb-16 text-center">
@@ -180,13 +180,13 @@ export default function Home() {
           {/* Feature 2 */}
           <div className="grid md:grid-cols-2 gap-12 items-center mb-24">
             <div className="space-y-4">
-              <h3 className="text-3xl font-black">Instant Feedback That Builds Real Understanding</h3>
+              <h3 className="text-3xl font-black">Umpan Balik Instan yang Membangun Pemahaman Sejati</h3>
               <p className="text-xl">
-                After each answer, receive immediate, AI-generated explanations. It's like having a tutor who explains
-                why, not just what.
+                Setelah setiap jawaban, dapatkan penjelasan instan yang dihasilkan AI. Rasanya seperti memiliki tutor yang menjelaskan
+                alasan, bukan hanya jawaban.
               </p>
               <div className="bg-green-200 border-2 border-black p-4 rounded-md -rotate-1 inline-block">
-                <p className="font-bold">🧠 Learn from mistakes instantly</p>
+                <p className="font-bold">🧠 Belajar dari kesalahan secara instan</p>
               </div>
             </div>
             <div>
@@ -214,13 +214,13 @@ export default function Home() {
               </div>
             </div>
             <div className="space-y-4 order-1 md:order-2">
-              <h3 className="text-3xl font-black">Learn Together, Compete Smarter</h3>
+              <h3 className="text-3xl font-black">Belajar Bersama, Bersaing Lebih Pintar</h3>
               <p className="text-xl">
-                Engage with friends in real-time quiz battles and climb the leaderboard. Multiplayer learning keeps
-                motivation high and fun.
+                Ikut serta dengan teman dalam pertarungan kuiz waktu nyata dan naik di papan peringkat. Pembelajaran multiplayer membuat
+                motivasi tetap tinggi dan menyenangkan.
               </p>
               <div className="bg-pink-200 border-2 border-black p-4 rounded-md rotate-1 inline-block">
-                <p className="font-bold">🏆 Compete and learn together</p>
+                <p className="font-bold">🏆 Bersaing dan belajar bersama</p>
               </div>
             </div>
           </div>
@@ -228,13 +228,13 @@ export default function Home() {
           {/* Feature 4 */}
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-4">
-              <h3 className="text-3xl font-black">Personalized Feedback That Scales With You</h3>
+              <h3 className="text-3xl font-black">Umpan Balik Personalisasi yang Bertumbuh Bersamamu</h3>
               <p className="text-xl">
-                Receive AI-driven summary feedback after each quiz session — identify your strengths, improve your
-                weaknesses.
+                Terima ringkasan umpan balik berbasis AI setelah setiap sesi kuiz — kenali kelebihanmu, tingkatkan
+                kekuranganmu.
               </p>
               <div className="bg-blue-200 border-2 border-black p-4 rounded-md -rotate-1 inline-block">
-                <p className="font-bold">📈 Track your progress over time</p>
+                <p className="font-bold">📈 Pantau perkembanganmu dari waktu ke waktu</p>
               </div>
             </div>
             <div>
@@ -256,7 +256,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-black mb-16 text-center">
             <span className="bg-purple-300 px-4 py-2 border-2 border-black rounded-md rotate-1 inline-block">
-              What Our Early Users Say
+              Apa Kata Pengguna Awal Kami
             </span>
           </h2>
 
@@ -267,12 +267,12 @@ export default function Home() {
                 <div className="w-12 h-12 bg-blue-300 border-2 border-black rounded-full mr-4"></div>
                 <div>
                   <h4 className="font-bold">Budi Santoso</h4>
-                  <p className="text-sm">12th Grade Student</p>
+                  <p className="text-sm">Siswa Kelas 12</p>
                 </div>
               </div>
               <p className="text-lg">
-                "Ngerti.In helped me prepare for my final exams in a way textbooks never could. The instant feedback
-                made me understand concepts I'd been struggling with for months!"
+                "Ngerti.In membantu saya mempersiapkan ujian akhir dengan cara yang tidak bisa dilakukan buku teks. Umpan balik instan
+                membuat saya memahami konsep yang sudah saya perjuangkan selama berbulan-bulan!"
               </p>
             </div>
 
@@ -282,12 +282,12 @@ export default function Home() {
                 <div className="w-12 h-12 bg-pink-300 border-2 border-black rounded-full mr-4"></div>
                 <div>
                   <h4 className="font-bold">Siti Rahma</h4>
-                  <p className="text-sm">University Student</p>
+                  <p className="text-sm">Mahasiswa</p>
                 </div>
               </div>
               <p className="text-lg">
-                "The multiplayer quizzes turned studying from a chore into something I actually look forward to. My
-                friends and I compete every weekend now!"
+                "Kuiz multiplayer mengubah belajar dari tugas membosankan menjadi sesuatu yang saya nantikan. Teman-teman
+                dan saya sekarang bersaing setiap akhir pekan!"
               </p>
             </div>
 
@@ -297,33 +297,33 @@ export default function Home() {
                 <div className="w-12 h-12 bg-yellow-300 border-2 border-black rounded-full mr-4"></div>
                 <div>
                   <h4 className="font-bold">Pak Joko</h4>
-                  <p className="text-sm">High School Teacher</p>
+                  <p className="text-sm">Guru SMA</p>
                 </div>
               </div>
               <p className="text-lg">
-                "As a teacher, I can quickly create quizzes from our textbook chapters. The AI feedback gives my
-                students the extra help I wish I could provide one-on-one."
+                "Sebagai guru, saya dapat dengan cepat membuat kuiz dari bab buku teks. Umpan balik AI memberi
+                siswa saya bantuan ekstra yang ingin saya berikan secara pribadi."
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Harga Section */}
       <section id="pricing" className="py-16 md:py-24 bg-blue-200 border-b-4 border-black">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-black mb-4 text-center">
             <span className="bg-yellow-300 px-4 py-2 border-2 border-black rounded-md -rotate-1 inline-block">
-              Transparent, Flexible Pricing
+              Harga Transparan & Fleksibel
             </span>
           </h2>
-          <p className="text-xl text-center mb-16">Choose a free or pro plan that fits your learning style.</p>
+          <p className="text-xl text-center mb-16">Pilih paket Gratis atau Pro yang sesuai dengan gaya belajarmu.</p>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {/* Free Plan */}
             <div className="bg-white border-4 border-black rounded-lg overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] rotate-1">
               <div className="bg-gray-100 p-6 border-b-4 border-black">
-                <h3 className="text-2xl font-black">Free</h3>
+                <h3 className="text-2xl font-black">Gratis</h3>
                 <div className="mt-4">
                   <span className="text-4xl font-black">Rp0</span>
                   <span className="text-gray-600">/month</span>
@@ -333,19 +333,19 @@ export default function Home() {
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>5 AI feedbacks/month</span>
+                    <span>5 umpan balik AI/bulan</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Multiplayer quizzes</span>
+                    <span>Kuiz multiplayer</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Generate quizzes with credits</span>
+                    <span>Buat kuiz dengan kredit</span>
                   </li>
                 </ul>
                 <button className="w-full mt-8 px-4 py-3 bg-gray-200 border-2 border-black rounded-md font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
-                  Start Free
+                  Mulai Gratis
                 </button>
               </div>
             </div>
@@ -354,9 +354,9 @@ export default function Home() {
             <div className="bg-white border-4 border-black rounded-lg overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] -rotate-1 transform scale-105 z-10">
               <div className="bg-blue-300 p-6 border-b-4 border-black relative">
                 <div className="absolute top-0 right-0 bg-yellow-400 border-l-2 border-b-2 border-black px-3 py-1 font-bold">
-                  POPULAR
+                  TERPOPULER
                 </div>
-                <h3 className="text-2xl font-black">Pro (3 months)</h3>
+                <h3 className="text-2xl font-black">Pro (3 bulan)</h3>
                 <div className="mt-4">
                   <span className="text-4xl font-black">Rp75,000</span>
                   <span className="text-gray-600">/3mo</span>
@@ -366,19 +366,19 @@ export default function Home() {
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Unlimited AI feedback</span>
+                    <span>Umpan balik AI tanpa batas</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Bonus credits</span>
+                    <span>Kredit bonus</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Ad-free experience</span>
+                    <span>Pengalaman tanpa iklan</span>
                   </li>
                 </ul>
                 <button className="w-full mt-8 px-4 py-3 bg-blue-400 border-2 border-black rounded-md font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
-                  Choose Pro
+                  Pilih Pro
                 </button>
               </div>
             </div>
@@ -386,7 +386,7 @@ export default function Home() {
             {/* Pro Annual */}
             <div className="bg-white border-4 border-black rounded-lg overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] rotate-1">
               <div className="bg-green-300 p-6 border-b-4 border-black">
-                <h3 className="text-2xl font-black">Pro (Annual)</h3>
+                <h3 className="text-2xl font-black">Pro (Tahunan)</h3>
                 <div className="mt-4">
                   <span className="text-4xl font-black">Rp250,000</span>
                   <span className="text-gray-600">/year</span>
@@ -396,19 +396,19 @@ export default function Home() {
                 <ul className="space-y-4">
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Everything in Pro</span>
+                    <span>Semua fitur Pro</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>16% discount vs quarterly</span>
+                    <span>Diskon 16% dibanding paket triwulan</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-500 font-bold mr-2">✓</span>
-                    <span>Priority support</span>
+                    <span>Dukungan prioritas</span>
                   </li>
                 </ul>
                 <button className="w-full mt-8 px-4 py-3 bg-green-400 border-2 border-black rounded-md font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
-                  Best Value
+                  Paling Hemat
                 </button>
               </div>
             </div>
@@ -416,13 +416,13 @@ export default function Home() {
 
           {/* Credit Packs */}
           <div className="mt-16 max-w-2xl mx-auto bg-white border-4 border-black rounded-lg p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] -rotate-1">
-            <h3 className="text-2xl font-black mb-4">Credit Packs</h3>
+            <h3 className="text-2xl font-black mb-4">Paket Kredit</h3>
             <p className="mb-4">
-              Starting from <span className="font-bold">Rp10,000</span>
+              Mulai dari <span className="font-bold">Rp10,000</span>
             </p>
-            <p>1 quiz generation ≈ 5–10 credits (depending on length)</p>
+            <p>1 pembuatan kuiz ≈ 5–10 kredit (tergantung panjang)</p>
             <button className="mt-6 px-4 py-2 bg-yellow-300 border-2 border-black rounded-md font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
-              Buy Credits
+              Beli Kredit
             </button>
           </div>
         </div>
@@ -433,7 +433,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-black mb-16 text-center">
             <span className="bg-blue-300 px-4 py-2 border-2 border-black rounded-md rotate-1 inline-block">
-              Frequently Asked Questions
+              Pertanyaan yang Sering Diajukan
             </span>
           </h2>
 
@@ -456,27 +456,27 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-black mb-16 text-center">
             <span className="bg-pink-300 px-4 py-2 border-2 border-black rounded-md -rotate-1 inline-block">
-              Recognitions & Achievements
+              Penghargaan & Pencapaian
             </span>
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="bg-white border-4 border-black rounded-lg p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] rotate-2 flex flex-col items-center text-center">
               <div className="text-4xl mb-4">🥉</div>
-              <h3 className="font-bold text-xl mb-2">3rd Place</h3>
-              <p>EduTech Hackathon 2024 (Regional Level)</p>
+              <h3 className="font-bold text-xl mb-2">Juara 3</h3>
+              <p>EduTech Hackathon 2024 (Tingkat Regional)</p>
             </div>
 
             <div className="bg-white border-4 border-black rounded-lg p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] -rotate-1 flex flex-col items-center text-center">
               <div className="text-4xl mb-4">🏆</div>
-              <h3 className="font-bold text-xl mb-2">Finalist</h3>
-              <p>Digital Education Innovation Challenge</p>
+              <h3 className="font-bold text-xl mb-2">Finalis</h3>
+              <p>Tantangan Inovasi Pendidikan Digital</p>
             </div>
 
             <div className="bg-white border-4 border-black rounded-lg p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] rotate-1 flex flex-col items-center text-center">
               <div className="text-4xl mb-4">🧪</div>
-              <h3 className="font-bold text-xl mb-2">Selected</h3>
-              <p>National research-based EdTech showcase</p>
+              <h3 className="font-bold text-xl mb-2">Terpilih</h3>
+              <p>Pameran EdTech berbasis riset nasional</p>
             </div>
           </div>
         </div>
@@ -485,12 +485,12 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-blue-300 border-b-4 border-black">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-black mb-4">Ready to Learn Smarter?</h2>
+          <h2 className="text-4xl font-black mb-4">Siap Belajar Lebih Pintar?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join thousands of learners turning knowledge into true understanding — one quiz at a time.
+            Bergabunglah dengan ribuan pelajar yang mengubah pengetahuan menjadi pemahaman sejati — satu kuiz setiap saat.
           </p>
           <button className="px-8 py-4 bg-yellow-400 border-4 border-black rounded-md font-bold text-xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] transition-all">
-            Start Learning Now — It's Free!
+            Mulai Belajar Sekarang — Gratis!
           </button>
         </div>
       </section>
@@ -501,20 +501,20 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <h3 className="font-black text-xl mb-4">Ngerti.In</h3>
-              <p>Making learning truly understandable, one quiz at a time.</p>
+              <p>Membuat pembelajaran benar-benar mudah dipahami, satu kuiz setiap saat.</p>
             </div>
 
             <div>
-              <h4 className="font-bold mb-4">Quick Links</h4>
+              <h4 className="font-bold mb-4">Tautan Cepat</h4>
               <ul className="space-y-2">
                 <li>
                   <Link href="#features" className="hover:underline">
-                    Features
+                    Fitur
                   </Link>
                 </li>
                 <li>
                   <Link href="#pricing" className="hover:underline">
-                    Pricing
+                    Harga
                   </Link>
                 </li>
                 <li>
@@ -524,7 +524,7 @@ export default function Home() {
                 </li>
                 <li>
                   <Link href="/contact" className="hover:underline">
-                    Contact
+                    Kontak
                   </Link>
                 </li>
               </ul>
@@ -535,19 +535,19 @@ export default function Home() {
               <ul className="space-y-2">
                 <li>
                   <Link href="/privacy" className="hover:underline">
-                    Privacy Policy
+                    Kebijakan Privasi
                   </Link>
                 </li>
                 <li>
                   <Link href="/terms" className="hover:underline">
-                    Terms of Service
+                    Ketentuan Layanan
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-bold mb-4">Connect</h4>
+              <h4 className="font-bold mb-4">Terhubung</h4>
               <div className="flex space-x-4">
                 <Link href="#" className="w-10 h-10 bg-black text-white flex items-center justify-center rounded-md">
                   <span className="sr-only">Twitter</span>
@@ -607,7 +607,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-200 text-center">
-            <p>&copy; {new Date().getFullYear()} Ngerti.In. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Ngerti.In. Hak cipta dilindungi.</p>
           </div>
         </div>
       </footer>
